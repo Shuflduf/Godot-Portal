@@ -14,5 +14,5 @@ func _process(_delta: float) -> void:
     var n = portal_one.global_transform * portal_two.global_transform.inverse() * player.cam.global_transform
     cam_two.global_transform = n
 
-    DebugDraw3D.draw_camera_frustum(cam_one, Color.ORANGE)
-    DebugDraw3D.draw_camera_frustum(cam_two, Color.PURPLE)
+    #DebugDraw3D.draw_camera_frustum(cam_one, Color.ORANGE)
+    #DebugDraw3D.draw_camera_frustum(cam_two, Color.PURPLE)
